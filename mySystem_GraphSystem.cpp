@@ -333,8 +333,8 @@ int GRAPH_SYSTEM::addNode( float x, float y, float z, float r )
     n->depth = 0;
     n->visited = false;
     n->edgeID.clear();
-    mActiveNodeArr[mCurNumOfActiveNodes] = n->id;
-    mCurNumOfActiveNodes++; 
+    //mActiveNodeArr[mCurNumOfActiveNodes] = n->id;
+    //mCurNumOfActiveNodes++; 
     return n->id;
 }
 
